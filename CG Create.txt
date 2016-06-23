@@ -7,7 +7,7 @@ Job Story
 	To have a way to start the creation process from my content management main screen.
 
 	#So then:
-	I can create CGs right away.
+	I can create CGs right away to the end.
 
 Use Case
 
