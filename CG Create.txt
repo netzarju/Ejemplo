@@ -1,0 +1,52 @@
+Job Story	
+	
+	#As an Editor,
+	Since I need Create/Edit a new content groups very often.
+
+	#I want
+	To have a way to start the creation process from my content management main screen.
+
+	#So then:
+	I can create CGs right away.
+
+Use Case
+
+	The user access to the platform. 
+
+	The System display a list of the content groups that had benn created already. 
+
+	The User Chooses the action button [#Create].
+
+	The System displays the [CG Creation Page], with a set of options to select the Type, Add Metadata, Images, Videos and settings according to the selected type of CG.
+
+	The User is able to cancel the CG Creation at any time by Clicking the action button of [#Cancel].
+
+		The System shows alert modal to confirm action.
+
+			(N) The System return to the Creation Page.
+			(Y) The System delete data anda close [CG Creation page]. 
+		
+	The user is able to save changes on the Content Gruop by clicking on the action button [#Save].
+
+	The System Validate the required inputs for the [Creation CG].
+
+			(N) The System show alert validation of the missing requierd inputs.
+
+			(Y) The System save, close [CG Creation Page], Display the List of the Content Groups and add the new CG on the top list.
+
+Needs
+
+	Change from modal to a single page.
+	Change the selection of type, and now include as a part of the Creation Page.
+
+Constrains
+
+	[10.Event Tag] is a bug on the creation of a other types of CG.
+	
+
+Issues
+	
+	
+Enhancements(+)
+
+	1. We are going to take out the tabs for add videos or assets and simplify the steps for the creation 
